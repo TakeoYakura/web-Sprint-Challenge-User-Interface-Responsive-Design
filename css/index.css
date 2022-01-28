@@ -250,31 +250,28 @@ footer nav a{
     justify-content: space-between;
 }
 
-.middle .split{
-    flex-direction: row;
-    width:45%;
-    
-}
 
-.middle .split #container{
+.middle #container{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding:8% 0;
     border-bottom:2px solid #ff4b00;
+    width:45%;
 }
 
 
 /*Responsive Styles*/
 
 @media(max-width:500px){
+    /*home page*/
     header{
         flex-direction: column;
         justify-content: center;
     }
     .logo{
         width: 25%;
-        margin:0 10% 0 0;
+        margin:0 15% 0 0;
         
     }
     .nav{
@@ -283,8 +280,8 @@ footer nav a{
     }
 
     .image{
-        margin: 0 10% 0 0%;
-        width:80%;
+        margin: 0 15% 0 0%;
+        width:90%;
     }
 
     .text-container h2 {
@@ -321,5 +318,28 @@ footer nav a{
     
     footer nav a{
         margin: 2% 0;
+    }
+
+/*about page*/
+
+    .top{
+        text-align: center;
+    }
+
+    .middle{
+        flex-direction: column;
+        width:100%;
+        
+    }
+
+    .middle #container{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bottom{
+        text-align: center;
     }
 }
