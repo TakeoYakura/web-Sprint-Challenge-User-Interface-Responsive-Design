@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width:100%;
+    /* border: 1px solid grey; */
 }
 
 html{
@@ -71,6 +73,55 @@ section, footer{
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+/*Header Section Styles */
+
+header {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 25vh;
+    margin: 5% 0;
+
+}
+
+header div{
+    justify-content: space-between;
+    width:60%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-right:12%;
+    width:90%;
+    
+}
+
+nav a{
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    width: 45%;
+    
+}
+
+.logo {
+    width: 25%;
+    margin-left:8%;
+}
+
+.image{
+    display: flex;
+    padding-top: 4%;
+    width:90%;
+    justify-content: center;
 }
 
 /*Top Section Styles*/
@@ -106,13 +157,55 @@ section, footer{
 }
 
 .middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
+    margin: 4% 1%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width:15%;
+    height: 15vh;
 }
+
+.box1{
+    background-color:teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
+}
+
 
 /*Bottom Section Styles*/
 .bottom-content {
@@ -130,10 +223,19 @@ section, footer{
 
 /*Footer Styles*/
 footer {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     background-color: #ff4b00;
 }
+    
+footer nav{
+    margin-left:4%;
+}
 
+footer nav a{
+    color:white;
+}
 /*About Page Styles*/
 
 
