@@ -266,3 +266,60 @@ footer nav a{
 
 
 /*Responsive Styles*/
+
+@media(max-width:500px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        width: 25%;
+        margin:0 10% 0 0;
+        
+    }
+    .nav{
+        width:100%;
+        margin:1% 10% 0 7%;
+    }
+
+    .image{
+        margin: 0 10% 0 0%;
+        width:80%;
+    }
+
+    .text-container h2 {
+        text-align: center;
+        margin: 4% 0;
+    }
+
+    #top-content{
+        border-bottom:2px solid #ff4b00;
+    }
+
+    .middle-content{
+        text-align: center;
+        border-bottom:2px solid #ff4b00;
+    }
+
+    .middle-content .boxes .box{
+        width:45%;
+    }
+
+    .bottom-content{
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container{
+        width:100%;
+    }
+
+    footer nav{
+        flex-direction: column;
+        align-items: center;
+        margin-left:10%;
+    }
+    
+    footer nav a{
+        margin: 2% 0;
+    }
+}
