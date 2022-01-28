@@ -238,5 +238,31 @@ footer nav a{
 }
 /*About Page Styles*/
 
+.top{
+    border-bottom:2px solid #ff4b00;
+}
+
+
+.middle{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle .split{
+    flex-direction: row;
+    width:45%;
+    
+}
+
+.middle .split #container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:8% 0;
+    border-bottom:2px solid #ff4b00;
+}
+
 
 /*Responsive Styles*/
